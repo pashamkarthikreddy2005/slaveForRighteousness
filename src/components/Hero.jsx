@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export default function Hero() {
-  const [scrollY, setScrollY] = useState(0);
+    const [, setScrollY] = useState(0);
 
   useEffect(() => {
     const onScroll = () => setScrollY(window.scrollY);
